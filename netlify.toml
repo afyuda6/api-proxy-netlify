@@ -9,6 +9,13 @@
     Access-Control-Allow-Headers = "Origin, X-Requested-With, Content-Type, Accept, Authorization"
 
 [[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/options-handler"
+  status = 200
+  force = true
+  conditions = { method = ["OPTIONS"] }
+
+[[redirects]]
   from = "/api/cpp/*"
   to = "https://rest-api-cpp-6ujvrm2fma-as.a.run.app/:splat"
   status = 204
