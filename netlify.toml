@@ -7,6 +7,11 @@
   status = 200
   force = true
 
+[[headers]]
+  for = "/api/cpp/*"
+  [headers.values]
+    Content-Type = "application/json"
+
 [[redirects]]
   from = "/api/go/*"
   to = "https://rest-api-go-6ujvrm2fma-as.a.run.app/:splat"
