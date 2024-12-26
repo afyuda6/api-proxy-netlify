@@ -10,7 +10,7 @@
 [[headers]]
   for = "/api/cpp/*"
   [headers.values]
-    Content-Type = "application/json"
+    Content-Type = "application/x-www-form-urlencoded"
 
 [[redirects]]
   from = "/api/go/*"
