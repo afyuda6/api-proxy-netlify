@@ -90,9 +90,3 @@
   to = "https://rest-api-ts-6ujvrm2fma-as.a.run.app/:splat"
   status = 200
   force = true
-
-[[redirects]]
-  from = "/*"
-  to = "/"
-  status = 204
-  conditions = {method = ["OPTIONS"]}
