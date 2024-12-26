@@ -6,105 +6,90 @@
   to = "https://rest-api-cpp-6ujvrm2fma-as.a.run.app/:splat"
   status = 200
   force = true
-  conditions = {method = ["GET", "POST", "PUT", "DELETE"]}
 
 [[redirects]]
   from = "/api/go/*"
   to = "https://rest-api-go-6ujvrm2fma-as.a.run.app/:splat"
   status = 200
   force = true
-  conditions = {method = ["GET", "POST", "PUT", "DELETE"]}
 
 [[redirects]]
   from = "/api/java/*"
   to = "https://rest-api-java-6ujvrm2fma-as.a.run.app/:splat"
   status = 200
   force = true
-  conditions = {method = ["GET", "POST", "PUT", "DELETE"]}
 
 [[redirects]]
   from = "/api/py/*"
   to = "https://rest-api-py-6ujvrm2fma-as.a.run.app/:splat"
   status = 200
   force = true
-  conditions = {method = ["GET", "POST", "PUT", "DELETE"]}
 
 [[redirects]]
   from = "/api/php/*"
   to = "https://rest-api-php-6ujvrm2fma-as.a.run.app/:splat"
   status = 200
   force = true
-  conditions = {method = ["GET", "POST", "PUT", "DELETE"]}
 
 [[redirects]]
   from = "/api/cs/*"
   to = "https://rest-api-cs-6ujvrm2fma-as.a.run.app/:splat"
   status = 200
   force = true
-  conditions = {method = ["GET", "POST", "PUT", "DELETE"]}
 
 [[redirects]]
   from = "/api/rb/*"
   to = "https://rest-api-rb-6ujvrm2fma-as.a.run.app/:splat"
   status = 200
   force = true
-  conditions = {method = ["GET", "POST", "PUT", "DELETE"]}
 
 [[redirects]]
   from = "/api/rs/*"
   to = "https://rest-api-rs-6ujvrm2fma-as.a.run.app/:splat"
   status = 200
   force = true
-  conditions = {method = ["GET", "POST", "PUT", "DELETE"]}
 
 [[redirects]]
   from = "/api/js/*"
   to = "https://rest-api-js-6ujvrm2fma-as.a.run.app/:splat"
   status = 200
   force = true
-  conditions = {method = ["GET", "POST", "PUT", "DELETE"]}
 
 [[redirects]]
   from = "/api/kt/*"
   to = "https://rest-api-kt-6ujvrm2fma-as.a.run.app/:splat"
   status = 200
   force = true
-  conditions = {method = ["GET", "POST", "PUT", "DELETE"]}
 
 [[redirects]]
   from = "/api/scala/*"
   to = "https://rest-api-scala-6ujvrm2fma-as.a.run.app/:splat"
   status = 200
   force = true
-  conditions = {method = ["GET", "POST", "PUT", "DELETE"]}
 
 [[redirects]]
   from = "/api/r/*"
   to = "https://rest-api-r-6ujvrm2fma-as.a.run.app/:splat"
   status = 200
   force = true
-  conditions = {method = ["GET", "POST", "PUT", "DELETE"]}
 
 [[redirects]]
   from = "/api/fs/*"
   to = "https://rest-api-fs-6ujvrm2fma-as.a.run.app/:splat"
   status = 200
   force = true
-  conditions = {method = ["GET", "POST", "PUT", "DELETE"]}
 
 [[redirects]]
   from = "/api/vb/*"
   to = "https://rest-api-vb-6ujvrm2fma-as.a.run.app/:splat"
   status = 200
   force = true
-  conditions = {method = ["GET", "POST", "PUT", "DELETE"]}
 
 [[redirects]]
   from = "/api/ts/*"
   to = "https://rest-api-ts-6ujvrm2fma-as.a.run.app/:splat"
   status = 200
   force = true
-  conditions = {method = ["GET", "POST", "PUT", "DELETE"]}
 
 [[redirects]]
   from = "/*"
