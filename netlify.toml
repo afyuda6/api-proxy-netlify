@@ -1,12 +1,6 @@
 [build]
   functions = "netlify/functions"
 
-[[redirects]]
-  from = "/*"
-  to = "/"
-  status = 204
-  conditions = { method = ["OPTIONS"] }
-
 [[headers]]
   for = "/*"
   [headers.values]
