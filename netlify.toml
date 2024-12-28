@@ -93,7 +93,7 @@
 
 [[redirects]]
   from = "/api/*"
-  to = "/404"
+  to = "https://afyuda6-rest-ui.netlify.app"
 
 [[headers]]
   for = "/api/*"
