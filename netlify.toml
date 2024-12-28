@@ -91,6 +91,10 @@
   status = 200
   force = true
 
+[[redirects]]
+  from = "/api/*"
+  to = "/404"
+
 [[headers]]
   for = "/api/*"
   [headers.values]
