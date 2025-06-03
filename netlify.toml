@@ -3,7 +3,7 @@
 
 [[redirects]]
   from = "/api/cpp/*"
-  to = "https://rest-api-cpp-6ujvrm2fma-as.a.run.app/:splat"
+  to = "https://rest-api-cpp.koyeb.app/:splat"
   status = 200
   force = true
 
