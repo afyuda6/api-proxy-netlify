@@ -1,0 +1,62 @@
+[build]
+  functions = "netlify/functions"
+
+[[redirects]]
+  from = "/api/cpp/*"
+  to = "https://rest-api-cpp-6ujvrm2fma-as.a.run.app/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/api/rb/*"
+  to = "https://rest-api-rb-6ujvrm2fma-as.a.run.app/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/api/cs/*"
+  to = "https://rest-api-cs-6ujvrm2fma-as.a.run.app/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/api/php/*"
+  to = "https://rest-api-php-6ujvrm2fma-as.a.run.app/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/api/go/*"
+  to = "https://rest-api-go-6ujvrm2fma-as.a.run.app/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/api/java/*"
+  to = "https://rest-api-java-6ujvrm2fma-as.a.run.app/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/api/py/*"
+  to = "https://rest-api-py-6ujvrm2fma-as.a.run.app/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/api/rs/*"
+  to = "https://rest-api-rs-6ujvrm2fma-as.a.run.app/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/*"
+  to = "https://afyuda6-rest-ui.netlify.app"
+
+[[headers]]
+  for = "/api/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Access-Control-Allow-Methods = "GET, POST, PUT, DELETE, OPTIONS"
+    Access-Control-Allow-Headers = "Content-Type"
+    Content-Type = "application/x-www-form-urlencoded"
